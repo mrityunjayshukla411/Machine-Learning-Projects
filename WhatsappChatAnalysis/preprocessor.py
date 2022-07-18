@@ -1,14 +1,20 @@
 import re
 import pandas as pd
 
-def preprocess(data):
+def preprocess(data,date_format):
+    
     pattern = '\d{1,2}/\d{1,2}/\d{2,4},\s\d{1,2}:\d{2}\s[a,p]m\s-\s'
+    if(date_format == '24H'):
+        pattern = '\d{1,2}/\d{1,2}/\d{2,4},\s\d{1,2}:\d{2}\s-\s'
+        
 
     messages = re.split(pattern, data)[1:]
     dates = re.findall(pattern, data)
 
     df = pd.DataFrame({'user_message': messages, 'message_date': dates})
     # convert message_date type
+    if(date_format == '24H'):
+        df['message_date'] = pd.to_datetime(df['message_date'], format='%d/%m/%Y, %H:%M - ')
     df['message_date'] = df['message_date'].apply(lambda x : x.upper())
     df['message_date'] = pd.to_datetime(df['message_date'], format='%d/%m/%y, %I:%M %p - ')
 
