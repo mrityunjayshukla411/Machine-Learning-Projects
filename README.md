@@ -1,13 +1,13 @@
 # Machine Learning Projects
-`This repository contains the projects that I did while learning Machine Learning`
+**`This repository contains the projects that I did while learning Machine Learning`**
 
 ## Index
-* Car Price Predictor
-* Bitcoin Historical Data Analysis
-* IPL Winning Probability
-* Laptop Price Predictor
-* MBTI Test Your Personality
-* Movie Recommmender 
-* SMS Spam Classifier
-* WhatsappChatAnalysis
+* [Car Price Predictor](https://github.com/mrityunjayshukla411/Machine-Learning-Projects/tree/main/CarPricePredictor)
+* [Bitcoin Historical Data Analysis](https://github.com/mrityunjayshukla411/Machine-Learning-Projects/tree/main/CryptoDataAnalysis)
+* [IPL Winning Probability](https://github.com/mrityunjayshukla411/Machine-Learning-Projects/tree/main/IPL%20Winning%20Probability)
+* [Laptop Price Predictor](https://github.com/mrityunjayshukla411/Machine-Learning-Projects/tree/main/LaptopPricePredictor)
+* [MBTI Test Your Personality](https://github.com/mrityunjayshukla411/Machine-Learning-Projects/tree/main/MBTI%20Test%20Your%20Personality)
+* [Movie Recommmender](https://github.com/mrityunjayshukla411/Machine-Learning-Projects/tree/main/MovieRecommender)
+* [SMS Spam Classifier](https://github.com/mrityunjayshukla411/Machine-Learning-Projects/tree/main/SMSSpamClassifier)
+* [WhatsappChatAnalysis](https://github.com/mrityunjayshukla411/Machine-Learning-Projects/tree/main/WhatsappChatAnalysis)
 
