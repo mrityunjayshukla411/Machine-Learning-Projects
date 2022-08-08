@@ -29,7 +29,7 @@ To deploy this project run
 ## Description
 
 This is a project I made while learning the basics of Machine learning  
-[Flow of the Project as described in the Jupyter Notebook :-](https://github.com/mrityunjayshukla411/Machine-Learning-Projects/blob/main/CarPricePredictor/car_price_predictor.ipynb)  
+[Flow of the Project as described in the Jupyter Notebook :-](https://github.com/mrityunjayshukla411/Machine-Learning-Projects/blob/main/MovieRecommender/movieRecommenderSystem.ipynb)  
 * Importing Data
 * Data Cleaning/Preprocessing
 * Stemming and Vectorizing
