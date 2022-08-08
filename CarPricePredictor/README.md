@@ -2,7 +2,6 @@
 # Car Price Predictor
 In this project we are going to predict the current price of a car using Machine Learning
 
-
 ## Installation
 
 Follow the following steps to install this project
@@ -12,7 +11,7 @@ Follow the following steps to install this project
   cd Machine-Learning-Projects/CarPricePredictor
   pip install -r requirements.txt
 ```
-    
+ 
 ## Deployment
 
 To deploy this project run
@@ -21,6 +20,7 @@ To deploy this project run
   streamlit run app.py
 ```
 
+## [Dataset Link](https://github.com/mrityunjayshukla411/Machine-Learning-Projects/blob/main/CarPricePredictor/quickr_car.csv)
 
 ## Description
 
