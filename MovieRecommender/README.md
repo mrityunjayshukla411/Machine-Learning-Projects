@@ -22,6 +22,9 @@ To deploy this project run
   streamlit run app.py
 ```
 
+## [Dataset Link](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata?select=tmdb_5000_movies.csv)
+
+## [Web App Link](https://mv-rcmmd-kalishasur.herokuapp.com/)
 
 ## Description
 
@@ -43,8 +46,3 @@ This is a project I made while learning the basics of Machine learning
  - [Sklearn](https://scikit-learn.org/stable/)
  - [CampusX Machine Learning Tutorials](https://www.youtube.com/c/CampusX-official/featured)
  - [Hands On Machine Learning Book](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/)
-
-
-## [Dataset Link](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata?select=tmdb_5000_movies.csv)
-
-## [Web App Link](https://mv-rcmmd-kalishasur.herokuapp.com/)
