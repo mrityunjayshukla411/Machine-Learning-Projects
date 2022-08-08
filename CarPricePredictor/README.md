@@ -22,6 +22,8 @@ To deploy this project run
 
 ## [Dataset Link](https://github.com/mrityunjayshukla411/Machine-Learning-Projects/blob/main/CarPricePredictor/quickr_car.csv)
 
+## [Web App Link](https://car-price-predictor-kalishasur.herokuapp.com/)
+
 ## Description
 
 This is a project I made while learning the basics of Machine learning  
