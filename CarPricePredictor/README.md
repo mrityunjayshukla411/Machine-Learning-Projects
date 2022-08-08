@@ -8,6 +8,16 @@
 The chosen dataset has the following input features :-
 * Name
 * Company Name
-+ Kilometres Driven
+* Kilometres Driven
 * Fuel Type
 * Year of Purchase
+
+The above input feautures will be used to predict the current selling price of the chosen car
+
+## `Flow of the project`
+
+* Data Cleaning/Preprocessing
+* Model Training
+* Model Evaluation
+* Deployment
+
