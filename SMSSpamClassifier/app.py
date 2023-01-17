@@ -4,7 +4,7 @@ import string
 from nltk.corpus import stopwords
 import nltk
 from nltk.stem.porter import PorterStemmer
-
+import os
 ps = PorterStemmer()
 
 
@@ -32,8 +32,9 @@ def transform_text(text):
 
     return " ".join(y)
 
-tfidf = pickle.load(open('vectorizer.pkl','rb'))
-model = pickle.load(open('model.pkl','rb'))
+path = os.path.dirname(__file__)
+tfidf = pickle.load(open(path + '/vectorizer.pkl','rb'))
+model = pickle.load(open(path + '/model.pkl','rb'))
 
 st.title("Email/SMS Spam Classifier")
 
