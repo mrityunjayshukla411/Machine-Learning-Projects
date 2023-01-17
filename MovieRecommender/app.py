@@ -2,9 +2,9 @@ import streamlit as st
 import pickle
 import pandas as pd 
 import requests
-moviesDict = pickle.load(open('movies_dict.pkl','rb'))
+moviesDict = pickle.load(open('/movies_dict.pkl','rb'))
 movies = pd.DataFrame(moviesDict)
-similarity = pickle.load(open('similarity.pkl','rb'))
+similarity = pickle.load(open('/similarity.pkl','rb'))
 
 def fetchPoster(movieId):
     res = requests.get(f"https://api.themoviedb.org/3/movie/{movieId}?api_key=5af00bcf1269c9513cf7a73ee264e94f&language=en-US")
